@@ -3,7 +3,7 @@ import { PostController } from "./post.controller";
 
 const router = express.Router();
 
-//router.get("/", PostController.getAllPostController)
+router.get("/", PostController.getAllPostController);
 router.post("/create-post", PostController.createPostController);
 // router.patch('/:id', PostController.updatePost)
 // router.delete('/:id', PostController.deletePost)
